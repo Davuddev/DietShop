@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+width: 100%;
+height: 100vh;
+background-image: url(https://bootstrapmade.com/demo/templates/Valera/assets/img/hero-bg.jpg);
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: aliceblue;
+}
+.hero button{
+font-size: 30px;    
+background: transparent;
+color: aliceblue;
+border: 2px solid white;
+border-radius: 5px;
+width: 300px;
+height: 50px;
+}
+.hero h1{
+font-size: 60px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero p{
+font-size: 26px;
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+        url('https://preview.colorlib.com/theme/meal/images/slider-1.jpg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+
+.css {
+    font-size: 70px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+width: 100%;
+height: 100vh;
+flex-direction: column;
+}
+
+.logo {
+
+    padding: 2px 10px;
+    border: 2px solid #000;
+    color: #000;
+    font-size: 30px;
+    width: 53px;
+
+}
+
+
+
+.index {
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+    font-size: 32px;
+    transition: all 1s ease;
+}
+
+.index:hover {
+    color: #121212;
+    background-color: #fff;
+
+}
+
+
+
+.css h1 {
+    border: 2px solid rgb(8, 1, 1);
+    font-size: 50px;
+    background-color: #fff;
+
+}
+
+
+
+
+.html {
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: start;
+    flex-direction: column;
+}
+
+.html h1 {
+    font-size: 50px;
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.html h2 {
+    font-size: 20px;
+    color: #656464;
+
+
+}
+
+.body {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.dream {
+
+    width: 500px;
+    height: 500px;
+    background-image: url('https://preview.colorlib.com/theme/meal/images/img_1.jpg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.lang {
+
+    width: 500px;
+    height: 500px;
+
+}
+
+.lesson {
+
+    width: 500px;
+    height: 500px;
+
+}
+
+.lang h1 {
+    font-size: 20px;
+    color: #ff7a5c;
+    margin-bottom: 12px;
+}
+
+.lang h2 {
+    color: black;
+    font-size: 23px;
+    margin-bottom: 15px;
+
+}
+
+.lang p {
+    font-size: 52px;
+    color: gray;
+    font-family: initial;
+
+}
+
+.lesson {
+    background-image: url('https://preview.colorlib.com/theme/meal/images/img_2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.honor {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+
+
+
+}
+
+.crlf h1 {
+    color: #ff7a5c;
+    font-size: 20px;
+
+    height: 500px;
+    width: 500px;
+
+}
+
+.crlf span h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.style {
+
+    width: 500px;
+    height: 500px;
+}
+
+.back {
+
+    width: 500px;
+    height: 500px;
+
+}
+
+.crlf span p {
+    background: #fff;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 50px;
+    color: gray;
+}
+
+.style {
+    background-image: url('https://preview.colorlib.com/theme/meal/images/img_3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.back h1 {
+    color: #ff7a5c;
+    font-size: 20px;
+
+
+}
+
+.back h2 {
+    font-size: 20px;
+    margin-bottom: 30p
+}
+
+.back p {
+    background: #fff;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 40px;
+    color: gray;
+}

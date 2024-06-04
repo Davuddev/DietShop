@@ -1,0 +1,45 @@
+.ilk {
+    height: 700px;
+    width: 100%;
+    background-image: url("https://images.pexels.com/photos/4072340/pexels-photo-4072340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 100;
+
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 60px;
+    font-weight: 200;
+    text-align: center;
+}
+
+h3 {
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 70px;
+    text-align: center;
+}
+
+h4 {
+    color: rgb(249, 247, 247);
+    background-color: green;
+    font-weight: 200;
+    height: 17px;
+    width: 120px;
+    text-align: center;
+}
+
+.butun {
+    background-color: green;
+    outline: none;
+    border-radius: 50px;
+    text-align: center;
+}

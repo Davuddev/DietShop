@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.logo ul {
+    display: flex;
+
+}
+
+
+
+
+.hero {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-around;
+
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+}
+
+ul li {
+    list-style: none;
+    font-size: 20px;
+    transition: all .3s ease;
+
+}
+
+ul li:hover {
+    color: red;
+}
+
+
+
+ul li span {
+    color: red;
+}
+
+ul button {
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    transition: all .5s ease;
+    border: none;
+}
+
+ul button:hover {
+    background-color: red;
+    color: black;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 100vh;
+    flex-direction: column; 
+}
+
+.left h1 {
+    color: red;
+    font-size: 30px;
+}
+
+.left h2 {
+    font-size: 60px;
+    color: black;
+}
+
+.left p {
+    font-size: 18px;
+}
+
+.left button {
+    background-color: red;
+    font-size: 15px;
+    border: none;
+    color: white;
+    width: 170px;
+    height: 50px;
+    transition: all .3s ease;
+}
+
+.right {
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    right: 0%;
+    top: 30%;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.left button:hover {
+    color: red;
+    background-color: white;
+}

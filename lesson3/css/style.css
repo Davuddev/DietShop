@@ -1,0 +1,25 @@
+.b{
+height: 100vh;
+width: 100%;
+background-image:url("https://images.pexels.com/photos/22717472/pexels-photo-22717472/free-photo-of-salt-lake-aerial-photo.jpeg");
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+header{
+width: 100%;
+height: 100px;
+background-color: firebrick;
+}
+footer{
+width: 100%;
+height: 100px;
+background-color: rgb(12, 37, 222);
+
+}
+
+
+
+
+
+

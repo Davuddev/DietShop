@@ -1,0 +1,93 @@
+h1 {
+    font-size: 32px;
+    color: blue;
+    animation-name: my-phone;
+    margin: 150px;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes my-phone {
+    0% {
+        transform: translateX(6px);
+    }
+
+    50% {
+        transform: translateY(15px);
+    }
+
+    100% {
+        transform: translatey(12px);
+    }
+
+}
+
+.paragraph {
+    position: relative;
+    display: inline-block;
+}
+
+.paragraph::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: blue;
+    left: 0;
+    bottom: 0;
+    transition: all .4s ease;
+}
+
+.paragraph:hover::before {
+    width: 100%;
+}
+
+section h1 {
+    font-size: 32px;
+    color: rgb(250, 5, 5);
+    animation-name: my-cat;
+    margin: 150px;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes my-cat {
+    0% {
+        transform: translateY(30px);
+
+    }
+
+
+    50% {
+        transform: translateY(30px);
+    }
+
+    100% {
+        transform: translatey(0, 5px);
+    }
+
+}
+
+.box {
+    position: relative;
+    display: inline-block;
+    font-size: 50px;
+}
+
+.box::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: rgb(95, 236, 6);
+    left: 0;
+    bottom: 0;
+    transition: all .2s ease;
+}
+
+.box:hover::after {
+    width: 100%;
+}
